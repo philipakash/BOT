@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TapChat</title>
+  <!-- Kik JavaScript Library -->
+<script src="//cdn.kik.com/kik/1.0.9/kik.js"></script>
+</head>
+
+<body>
+  <!-- Code for user interface -->
+  <div class="app-page" data-page="home">
+    <!-- Show app name in the top bar -->
+    <div class="app-topbar">
+      <div class="app-title">TapChat</div>
+    </div>
+    <div class="app-content">
+      <!-- Show received message -->
+      <div id="message" class="app-section">
+        <p class="message-title">RECEIVED MESSAGE</p>
+        <p class="message-text"></p>
+      </div>
+      <div class="app-section">
+        <!-- Area to type your message and send to friends -->
+        <form id="form-message">
+          <textarea id="input-message" class="app-input" placeholder="Enter a message..."></textarea>
+          <div id="button-send" class="app-button">Send</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
